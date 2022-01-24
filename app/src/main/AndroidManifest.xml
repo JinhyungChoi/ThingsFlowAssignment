@@ -14,6 +14,7 @@
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.ThingsFlow">
+        <activity android:name=".view.PopupActivity"/>
         <activity
             android:name=".view.DetailActivity"
             android:exported="false" />
