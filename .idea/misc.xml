@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_detail.xml" value="0.15208333333333332" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_git_issue.xml" value="0.271286231884058" />
+        <entry key="app/src/main/res/layout/item_thingsflow_logo.xml" value="0.21467391304347827" />
       </map>
     </option>
   </component>
