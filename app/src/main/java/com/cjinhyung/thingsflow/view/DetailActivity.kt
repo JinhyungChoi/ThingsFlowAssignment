@@ -31,8 +31,8 @@ class DetailActivity : AppCompatActivity() {
 
     private fun setObserver() {
         detailViewModel.gitDetailResponse.observe(this, Observer {
-            Glide.with(this)
-                .load(it.user.avatar_url+".png")
+            Glide.with(binding.ivUserImage.context)
+                .load(it.user.avatar_url)
                 .into(binding.ivUserImage)
             binding.tvUserId.text = it.user.login
             binding.tvIssueBody.text = it.body
